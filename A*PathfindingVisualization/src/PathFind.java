@@ -7,7 +7,7 @@ public class PathFind
 	private long runTime;
 	private double kValue;
 	private Frame frame;
-	private Node start
+	private Cell start;
 	public static void main(String[] args)
 	{
 		
