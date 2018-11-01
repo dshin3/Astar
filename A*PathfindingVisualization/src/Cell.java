@@ -7,6 +7,8 @@
 //Done.
 public class Cell
 {
+	
+	
 	private int x;
 	private int y;
 	private int g;
@@ -20,7 +22,7 @@ public class Cell
 		this.x = x;
 		this.y = y;
 	}
-		
+	
 	public int getX()
 	{
 		return x;
@@ -30,7 +32,19 @@ public class Cell
 	{
 		return y;
 	}
+	public void getG(int newG)
+	{
+		this.g = newG;
+	}
 	
+	public void getH(int newH)
+	{
+		this.h = newH;
+	}
+	public void getF(int newF)
+	{
+		this.f = newF;
+	}
 	public int getG()
 	{
 		return g;
@@ -65,22 +79,12 @@ public class Cell
 		this.x = x;
 		this.y = y;
 	}
-	public void getG(int newG)
-	{
-		this.g = newG;
-	}
+
 	public void setG(int g)
 	{
 		this.g = g;
 	}
-	public void getH(int newH)
-	{
-		this.h = newH;
-	}
-	public void getF(int newF)
-	{
-		this.f = newF;
-	}
+	
 	public void setF(int f)
 	{
 		this.f = f;
